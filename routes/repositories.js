@@ -14,7 +14,6 @@ router.get('/',(req,res,next) => {
     repositories = repositories.filter((repoCSharp) => { return repoCSharp.language === 'C#'; }).splice(0,5);
 
     res.status(200).send({
-      // data: repositories
       first: repositories[0],
       second: repositories[1],
       third: repositories[2],
