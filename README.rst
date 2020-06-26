@@ -19,4 +19,23 @@ Instalar dependências
 Deploy
 ======
 
-* Heroku: https://take-challenge-bot.herokuapp.com/repositories
+* Heroku: https://take-challenge-bot.herokuapp.com
+
+Endpoint
+#######
+::
+
+   $ GET /repositories
+
+Retorno
+#######
+.. code-block:: javascript
+
+  {  
+      "0": {  ... //repo info } 
+      "1": {  ... //repo info } 
+      ...
+  }
+
+
+
