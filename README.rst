@@ -2,15 +2,15 @@
 takechallenge
 *****
 
-API de integração utilizada para comunicar com a API do Github. Os dados são utilizados para consumir um bot informativo criado no BLiP.
+This is an API that comunicates with Github's API. The data is consumed by a chatbot developed on BLiP Plataform.
 
-Dependências
+Dependencies
 ============
 
 * Axios v0.19.2
 * Express v4.17.1
 
-Instalar dependências
+Install dependencies
 
 ::
 
@@ -27,7 +27,7 @@ Endpoint
 
    $ GET /repositories
 
-Retorno
+Response
 #######
 .. code-block:: javascript
 
